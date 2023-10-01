@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* end mayer */
+header {
+    background: #6e7681;
+    min-height: 20px;
+}
+
+.wrapper {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 8px 0px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.logo {
+    display: flex;
+    float: left;
+}
+
+.logo h1 span {
+    color: chocolate;
+}
+
+.logo h1.company {
+    margin: 14px 0px 0px 8px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* menu */
+.menu {
+    float: right;
+    margin: 10px 0 0 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    padding: 7px 15px;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    color: chocolate;
+    background-color: rgb(28, 29, 21);
+    border-radius: 5px;
+}
+
+/* menu end */
+
+.Content {
+    text-align: center;
+    width: 100%;
+    /* position: absolute; */
+    margin-top: 40px;
+    /* transform: translateY(-50%); */
+
+}
+
+.Content h1 {
+    font-size: 50px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.Content p {
+    margin: 30px auto;
+    line-height: 30px;
+}
+
+/* end content */
+
+.main-head {
+    background: #000;
+}
+
+.main-head h1 {
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.main-head p {
+    text-align: center;
+    color: #ffffff;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.ditls {
+    padding: 30px;
+}
+
+.ditls img {
+    border-radius: 100%;
+    box-shadow: 5px 2px 8px #ce3939;
+}
+
+.ditls h2 {
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.ditls h3 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.ditls h3 span {
+    color: chocolate;
+}
+
+/* main End */
+
+.headers h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.head-img img {
+    float: left;
+    padding: 0 70px 0 0;
+}
+
+.head-ditls {
+    padding: 10px;
+    display: block;
+}
+
+.head-ditls h2 {
+    padding: 15px;
+}
+
+/* end heades */
+
+.six-img h1 {
+    text-align: center;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pictures img {
+    width: 400px;
+    height: 250px;
+    padding: 5px 7px 5px 7px;
+    border-radius: 20px;
+}
+
+/* End six img */
+
+/* stard special-minu */
+
+.special-minu h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.special-img img {
+    width: 500px;
+    float: left;
+    padding: 20px;
+}
+
+.special-dtles {
+    text-align: center;
+    margin-top: 17px;
+}
+
+.special-dtles h2 {
+    padding: 15px;
+    font-size: 30px;
+}
+
+.special-dtles p {
+    justify-content: center;
+    padding: 17px;
+}
+
+.special-dtles button {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    transition: .9s;
+}
+
+.special-dtles button:hover {
+    background-color: blue;
+}
+
+/* End special-minu */
+
+/* footer stard */
+/* .footer-minu h1 {
+    /* background: #161514e0;
+text-align: center;
+}
+
+.footers {
+    background: #161514e0;
+    display: flow-root;
+    min-height: 320px;
+    min-width: 1080px;
+    margin: 0 auto;
+
+}
+
+.footer-form {
+    float: left;
+    background: #ffffff;
+    height: 250px;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.footer-icons {
+    float: right;
+} */
+.foot {
+    text-align: center;
+}
+
+
+footer {
+    background: #6e7681;
+    padding: 40px 0;
+}
+
+.contact-form {
+    background: #ffffff;
+    width: 49%;
+    float: left;
+    margin: 5px;
+}
+
+.contact-form form {
+    padding: 20px;
+}
+
+.contact-form form h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-form table,
+.contact-form tr {
+    width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding-block: 0px;
+    padding-inline: 0px;
+    padding: 5px 0px;
+    border: 1px solid #b1b4b1;
+    border-radius: 3px;
+}
+
+.contact-form table td {
+    padding: 5px;
+}
+
+
+.contact-form textarea {
+    min-height: 80px;
+}
+
+.contact-form .sub-btn {
+    background: #0e5796;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.contact {
+    float: right;
+    width: 49%;
+    margin: 5px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.social ul li {
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.social ul li a {
+    color: #ffffff;
+    display: block;
+    font-size: 20px;
+}
+
+.social p {
+    line-height: 25px;
+}
+
+.number p,
+.address p {
+    font-size: 10px;
+    margin: 4px 0;
+}
+
+.number,
+.address {
+    float: left;
+    width: 42%;
+    margin: 30px 20px;
+}
